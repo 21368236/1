@@ -1,11 +1,6 @@
 username = input("Username entry")
 residence = input ("Residence:")
 age= int(input("Age of user:"))
-gender- (input("Gender (M/F):"))
-if (gender == "M"):
-     print (username, " lives in ", residence, ". He will turn ", (age+1), " on his next birthday")
-elif (gender == "F"):
-     print (username, " lives in ", residence, ". She will turn ", (age+1), " on her next birthday")
+#gender- (input("Gender (M/F):"))
 
-else:
-     print (username, " lives in ", residence, ". They will turn ", (age+1), " on their next birthday")
+print (username, " lives in ", residence, ". They will turn ", (age+1), " on their next birthday")
