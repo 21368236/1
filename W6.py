@@ -14,4 +14,4 @@ while guess != number:
     elif  guess> number:
         print("the correct answer was lower than that.")
     else:
-        print ("The correct number was above that.")
+        print ("The correct answer was above that.")
