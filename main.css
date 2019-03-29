@@ -1,0 +1,21 @@
+body
+{background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/21/Adams_The_Tetons_and_the_Snake_River.jpg");}
+  {background-color: #090090}
+h1 {color: #ff0088}
+p {color: #151515}
+
+#thelinks li { display : inline }
+
+a:link {color: #000000;}
+a:hover {color :#00ffff;}
+a:active {color:#888888}
+a:visited {color: #ffffff}
+
+
+div.abcxyz {
+       background-color: #cf00fc;
+	   width: 240px;
+	   border: 19px #abc123;
+	   padding: 25px;
+	   margin: 25px;
+	   }

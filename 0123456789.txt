@@ -1,0 +1,35 @@
+<!--body {background-color: #333334}
+h1 {color: #ff0088}
+p {color: #cccccc}
+a:link {color: #00ffff}
+a:visited {color: #ff00ff}
+
+#thelinks li { display : inline }
+-->
+
+<!--<style>
+body {background-color: #151515}
+h1 {color: #0033ff}
+p {color: #cccccc}
+a:link {color: #00ffff}
+a:visited {color: #ff00ff}
+#thelinks li { display : inline }
+</style>-->
+
+<!--body {background-color: #151515}
+h1 {color: #ff00cc}
+p {color: #cccccc}
+a:link {color: #00ffff}
+a:visited {color: #ff00ff}
+#thelinks li { display : inline }-->
+
+<!--body {background-color: #888888}
+h1 {color: #ff00cc}
+p {color: #000000}
+a:link {color: #000088}
+a:visited {color: #880088}
+#thelinks li { display : inline }-->
+a:link {color: #00ffff}
+a:hover {
+a:
+a:visited {color: #ff00ff}
