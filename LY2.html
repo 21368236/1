@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+<body style="background-color:#000000;">
+<body background="https://win-walls.com/wallpapers/95/BLACKTHATCH.bmp">
+<style>
+body { 
+       color:#123456;
+}
+h1 {
+       color:#00ffcc;
+}
+p {    
+       color:#ff00cc;
+}
+h2 {
+       color:#6666bb;
+}
+small {
+       color:#888888;
+}
+div.kotoba {
+       background-color: #090090;
+	   width: 240px;
+	   border: 19px #abc123;
+	   padding: 25px;
+	   margin: 25px;
+}
+.grid-container1 {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	background-color: #900716;
+	padding: 1px;
+}
+.grid-item1 {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 3px solid rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	font-size: 35px;
+	text-align: left;
+	text-color: #ffffff
+}
+.grid-container2 {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	background-color: #880088;
+	grid-column-gap: 6px;
+	grid-row-gap: 21px;
+	padding: 10px;
+}
+.grid-container2 > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size:30px;
+}
+.item1 {
+	grid-color-start: 1;
+	grid-column-end: 3;
+}
+.item6 {
+	grid-column-start: 2;
+	grid-column-end: 3.9;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+</style>
+<title> undefined </title>
+<h1>  </h1>
+<marquee> ` </marquee>
+</head>
+<body>
+
+<p> ! the button 2 calculate x
+<button onclick= "theFunction()">Try it</button>
+</p>
+<p> 
+Enter first number:
+<input type=text" id="txt1" name="text1" value="1">
+Enter first number:
+<input type=text" id="txt2" name="text2" value="2">
+</p>
+<p id="demo"></p>
+<script>
+function theFunction() {
+var y = document.getElementById("txt1").value;
+var z = document.getElementById("txt2").value;
+var x = +y + +z;
+document.getElementById("demo").innerHTML = x
+}
+for (var i = 1; i < 13; i++) {
+a=i*i
+document.write(+a+"<br>");
+} 
+</script>
+-->
+<H1> N'KOƆFOƆ M!’XƐNG’HUOC </H1>
+
+<!--<script>
+for (var i = 0; i < 10; i = i + 1) {
+if (i % 2 == 0) {
+ document.write(i + " is even<br>");
+}
+else {
+ document.write(i + " is uneven<br>");
+}
+}
+</script>-->
+<p> Saa Se Il !Xeng'huoc m'1-100(Il-Ilyongyong/Hyuk) . </p>
+<form id="guessNumber">
+ <input type="text" name="guess">
+ <input type="submit" value="Submit Guess">
+</form>
+<p id="output"></p>
+<script type="text/javascript">
+ var number = Math.ceil(Math.random() * 100);
+function verify() {
+ var guess = Number(this.elements.guess.value),
+  output = document.getElementById('output');
+  
+ if (isNan(guess)) {
+    output.innerHTML = '?';
+ } else if (number === guess) {
+    output.innerHTML = 'Saa se kx'!Xeng'huoc';
+ } else if (guess > 100) {
+    output.innerHTML = 'kx'!Xeng'huoc' se N!akai m'1 wa Om@pyo m' 100';  
+ } else if (guess > number) {
+    output.innerHTML = 'kx'!Xeng'huoc se om@pyo m'0ssung';  
+ } else if (guess < number) {
+    output.innerHTML = 'kx'!Xeng'huoc se n!akai m'0ssung';
+ }
+ return false;
+} 
+document.getElementById('guessNumber').onsubmit = verify;
+</script>
+</body> 
+<footer>
+</footer>
+</html>
