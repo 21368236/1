@@ -1,0 +1,78 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author 21368236
+ */
+public class JavaApplication2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+   
+
+		//int gy;
+		//Scanner inputDevice = new Scanner(System.in);
+		//System.out.print("kxu n!a xui se: ");
+		//gy = inputDevice.nextInt();
+		//switch (gy){
+		//case 1:
+		//case 15:
+		//case 17:
+		//	System.out.println("You are not eligible for voting");
+		//	break;
+		//case 18:
+		//	System.out.println("You are eligible for voting");
+                int yr = input.nextInt();
+                switch(yr) {
+                    case 1:
+                        System.out.println("MONKEY");
+                        break;
+                    case 2:
+                        System.out.println("ROOSTER");
+                        break;
+                    case 3:
+                        System.out.println("DOG");
+                        break;
+                    case 4:
+                        System.out.println("RAT");
+                        break;
+                    case 5:
+                        System.out.println("OX");
+                        break;
+                    case 6:
+                        System.out.println("TIGER");
+                        break;
+                    case 7:
+                        System.out.println("RABBIT");
+                        break;
+                    case 8:
+                        System.out.println("DRAGON");
+                        break;
+                    case 9:
+                        System.out.println("SNAKE");
+                        break;
+                    case 10:
+                        System.out.println("HORSE");
+                        break;
+                    case 11:
+                        System.out.println("SHEEP");
+                        break;
+                    case 12:
+                        System.out.println("DEER");
+                        break;
+                                }				
+	}
+}
+    
+    
+}
