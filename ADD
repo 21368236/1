@@ -1,0 +1,7 @@
+	IN
+	STO	99
+	IN
+	ADD	99
+	OUT
+	HLT
+99	DAT	55
