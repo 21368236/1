@@ -1,0 +1,41 @@
+	IN
+	STO	99
+	IN
+	STO	98
+	SUB	99
+	BRP	number3
+	LDA	99
+	STO	96
+	LDA	98
+	STO	99
+	LDA 	96
+	STO	98
+number3	IN	
+	STO	97
+	SUB	98
+	BRP	result
+	LDA	97
+	STO	96
+	LDA	98
+	STO	97
+	LDA	96
+	STO	98
+	SUB	99
+	BRP	result
+	LDA	98
+	STO	96
+	LDA	99
+	STO	98
+	LDA	96
+	STO	99
+result	LDA	97
+	OUT
+	LDA	98
+	OUT
+	LDA	99
+	OUT
+	HLT
+96	DAT	00
+97	DAT	00
+98	DAT	00
+99	DAT	00
