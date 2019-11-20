@@ -1,0 +1,12 @@
+	IN
+	STO	99
+	IN
+	STO	98
+	SUB	99
+	BRP	number3
+	LDA		99
+	STO	96
+	LDA		98
+	STO	99
+	LDA 	96
+	STO
