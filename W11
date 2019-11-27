@@ -1,0 +1,23 @@
+menu	IN
+	BRP
+	BR
+start	SUB
+	BRZ
+	SUB
+	BRZ
+	SUB
+	BRZ
+	SUB
+	BRZ
+	BRP
+eql1	IN
+	STO	first
+	IN
+	STO	second
+	SUB	first
+	BRZ	equals
+	BRP	sgreat
+	BR	fgreat
+equals	OUT
+	HLT
+sgreat	
