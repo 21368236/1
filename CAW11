@@ -1,0 +1,62 @@
+menu IN
+    BRP     MENU
+    BRP     START
+    BR    menu
+start    SUB    one
+    BRZ    eql1
+    SUB    one
+    BRZ    sq2
+    SUB    one
+    SUB    cdown3
+    SUB    one
+    BRZ    trian4
+    BRP    menu
+eql1    IN
+    STO    first
+    IN
+    STO    second
+    SUB    first
+    BRZ    equals
+    BRP    sgreat
+    BR    fgreat    
+equals    OUT
+    HLT
+sgreat    LDA    second
+    OUT
+    HLT
+fgreat    LDA    first
+    OUT
+    HLT
+square2    IN
+    STO    number
+loop2    LDA    esult 
+    ADD    number
+    STO    result
+    LDA    count
+    ADD    one
+    STO    count
+    SUB    number
+    BRZ    end2
+    BR    loop2
+end2    LDA    ersult
+    OUT
+    HLT
+cdown3    IN
+.
+.
+.
+    HLT
+trian4    IN
+    .
+    .
+    .
+    HLT
+first    DAT    0
+second    DAT    0
+number    DAT    0
+one    DAT    1
+result    DAT    0
+count    DAT    0
+un found    DAT    0
+trinum    DAT    0
+
